@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2012 Cowrie
+﻿// Copyright (c) 2014 Cowrie
 
 using System;
 using System.Collections.Generic;
@@ -6,9 +6,7 @@ using System.Linq;
 using System.Web.UI.WebControls;
 using DotNetNuke.Entities.Modules;
 using DotNetNuke.Services.Exceptions;
-using DotNetNuke.UI.WebControls;
 using SelectedHotelsModel;
-using TreeNode = DotNetNuke.UI.WebControls.TreeNode;
 
 namespace Cowrie.Modules.HomeAndGardens
 {

@@ -1,5 +1,5 @@
 ﻿<%@ control language="C#" autoeventwireup="true" codebehind="HomeAndGardens.ascx.cs"
-    inherits="Cowrie.Modules.ProductList.HomeAndGardens" %>
+    inherits="Cowrie.Modules.HomeAndGardens.HomeAndGardens" %>
 <%@ Import Namespace="Common" %>
 <%@ Register assembly="DotNetNuke.WebControls" namespace="DotNetNuke.UI.WebControls" tagPrefix="dnn" %>
 <div class="categories">

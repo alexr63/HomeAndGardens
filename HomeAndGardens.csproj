@@ -155,6 +155,7 @@
     <Content Include="Web.Config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="HomeAndGardens.dnn" />
     <None Include="Web.Debug.Config">
       <DependentUpon>Web.Config</DependentUpon>
     </None>
