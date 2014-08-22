@@ -1,0 +1,101 @@
+﻿.locations {
+    clear: left;
+    float: left;
+    padding: 0;
+    margin: 10px 10px 10px 10px;
+    display: inline;
+    -moz-min-width: 240px;
+    -ms-min-width: 240px;
+    -o-min-width: 240px;
+    -webkit-min-width: 240px;
+    min-width: 240px;
+    width: 95%;
+    align-content: center;
+}
+
+.categories {
+    clear: left;
+    float: left;
+    padding: 20px 0;
+    margin: 0 0 0 30px;
+    display: inline;
+    -moz-min-width: 240px;
+    -ms-min-width: 240px;
+    -o-min-width: 240px;
+    -webkit-min-width: 240px;
+    min-width: 240px;
+    width: 250px;
+}
+
+.category-selectors {
+    clear: left;
+    float: left;
+    padding: 20px 0px 0px 20px;
+    margin: 0 0 0 0;
+    display: inline;
+    -moz-min-width: 860px;
+    -ms-min-width: 860px;
+    -o-min-width: 860px;
+    -webkit-min-width: 860px;
+    min-width: 860px;
+    width: 870px;
+}
+
+.filters {
+    clear: left;
+    float: left;
+    padding: 20px 0;
+    margin: 0 0 0 30px;
+    display: inline;
+    -moz-min-width: 200px;
+    -ms-min-width: 200px;
+    -o-min-width: 200px;
+    -webkit-min-width: 200px;
+    min-width: 200px;
+    width: 210px;
+}
+
+.products {
+    float: right;
+    padding: 20px 0;
+    margin: 0 20px 0 0;
+    display: inline;
+    -moz-min-width: 450px;
+    -ms-min-width: 450px;
+    -o-min-width: 450px;
+    -webkit-min-width: 450px;
+    min-width: 450px;
+}
+
+div.footer {
+    text-align: right;
+}
+
+div.search {
+    clear: left;
+    float: left;
+    padding: 0;
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.filter {
+    OVERFLOW-Y: scroll;
+    WIDTH: 207px;
+    max-height: 212px
+}
+
+/* style for the DNNTextSuggest control select menu */
+ .SuggestTextMenu
+ {
+     border: solid 1px #000;
+     white-space: nowrap;
+     background: #FFF;
+     padding: 3px;
+ }
+ /* style for the DNNTextSuggest control selected menu node */
+ .SuggestNodeOver
+ {
+     background-color: navy;
+     color: #FFF;
+ }
