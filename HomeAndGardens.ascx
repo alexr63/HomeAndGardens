@@ -54,7 +54,7 @@
                 <table>
                     <tr>
                         <td style="vertical-align: middle">
-                            <asp:HyperLink ID="HyperLinkName" runat="server" Text='<%# Eval("Name") %>' NavigateUrl='<%# DotNetNuke.Common.Globals.NavigateURL(TabId, "HomeAndGardensDetails", "mid=" + ModuleId, "Id=" + Eval("Id")) %>' />
+                            <asp:HyperLink ID="HyperLinkName" runat="server" Text='<%# Eval("Name") %>' NavigateUrl='<%# DotNetNuke.Common.Globals.NavigateURL(TabId, "HomeAndGardenDetails", "mid=" + ModuleId, "Id=" + Eval("Id")) %>' />
                         </td>
                     </tr>
                     <tr>
@@ -64,7 +64,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:HyperLink ID="HyperLinkImage" runat="server" ImageUrl='<%# Eval("Image") %>' NavigateUrl='<%# DotNetNuke.Common.Globals.NavigateURL(TabId, "HomeAndGardensDetails", "mid=" + ModuleId, "Id=" + Eval("Id")) %>' ImageWidth="100" />
+                            <asp:HyperLink ID="HyperLinkImage" runat="server" ImageUrl='<%# Eval("Image") %>' NavigateUrl='<%# DotNetNuke.Common.Globals.NavigateURL(TabId, "HomeAndGardenDetails", "mid=" + ModuleId, "Id=" + Eval("Id")) %>' ImageWidth="100" />
                         </td>
                     </tr>
                     <tr>

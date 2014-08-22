@@ -164,11 +164,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_LocalResources\HotelList.ascx.resx">
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +175,9 @@
       <Project>{58ed5699-0ce6-4868-9876-f99d40899857}</Project>
       <Name>SelectedHotelsModel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\HomeAndGardens.ascx.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -203,7 +201,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>13132</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://selectedhot.local/DesktopModules/HotelList</IISUrl>
+          <IISUrl>http://selectedhot.local/DesktopModules/HomeAndGardens</IISUrl>
           <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
           <IISAppRootUrl>http://selectedhot.local</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
